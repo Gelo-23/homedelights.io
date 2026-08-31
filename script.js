@@ -334,7 +334,7 @@ function closeCheckout() {
 document.getElementById("orderModal").classList.remove("active");
 }
 
-async function sendMessengerOrder(event) {
+function sendMessengerOrder(event) {
 event.preventDefault();
 
 if (!customer) {
@@ -350,6 +350,7 @@ return;
 
 const date = document.getElementById("orderDate").value;
 const notes = document.getElementById("orderNotes").value.trim();
+const hasPhoto = !!selectedPhoto;
 
 let message = `Hello Home Delights! I'm ${customer.name} (${customer.phone}) and I'd like to place an order.%0A%0A`;
 message += "ORDER:%0A";
@@ -365,24 +366,31 @@ message += `%0AEstimated total: ${encodeURIComponent(totalLabel)}`;
 message += `%0AOrder date: ${encodeURIComponent(date)}`;
 message += `%0ANotes: ${encodeURIComponent(notes || "None")}`;
 
-let photoCopied = false;
-if (selectedPhoto) {
-photoCopied = await tryCopyPhotoToClipboard();
-message += photoCopied
-? "%0A%0A(I'm pasting a reference photo in this chat too!)"
-: "%0A%0A(I have a reference photo — attaching it in this chat.)";
+if (hasPhoto) {
+message += "%0A%0A(I have a reference photo to send in this chat too.)";
 }
 
 message += "%0A%0AThank you!";
 
-window.open(`https://m.me/${MESSENGER_USERNAME}?text=${message}`, "_blank");
+// Open Messenger IMMEDIATELY, synchronously, as a direct result of this
+// click — this is what keeps browsers from blocking the popup. Anything
+// async (like the clipboard copy below) has to happen AFTER this line.
+const messengerUrl = `https://m.me/${MESSENGER_USERNAME}?text=${message}`;
+const messengerWindow = window.open(messengerUrl, "_blank");
 
-if (selectedPhoto) {
+if (!messengerWindow) {
+// Popup was blocked anyway — fall back to navigating this tab there.
+window.location.href = messengerUrl;
+}
+
+if (hasPhoto) {
+tryCopyPhotoToClipboard().then(copied => {
 window.setTimeout(() => {
-alert(photoCopied
+alert(copied
 ? "Your photo was copied — paste it (Ctrl+V or long-press → Paste) into the Messenger chat that just opened."
 : "Don't forget to manually attach your reference photo in the Messenger chat that just opened.");
 }, 300);
+});
 }
 
 cart = [];
