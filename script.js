@@ -2,16 +2,16 @@ const MESSENGER_USERNAME = "home.delights.kitchen";
 
 const products = [
 // CAKES
-{ id: 1, category: "cakes", name: "2 Layer Fondant Cake", price: 7000, startingPrice: true, image: "https://scontent.fmnl33-2.fna.fbcdn.net/v/t39.30808-6/772379005_1461952169287315_2437400310643667521_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx896x1029&ctp=s896x1029&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeF2olyy2gQhnaVlnvMPkf_MjgLCrpbWoTeOAsKultahN2fDWqJJuSGbM5P2_WDy6CRkk_Xa7XyUd_UMn6N50ANq&_nc_ohc=dWnjE6NvqyYQ7kNvwGeEtrY&_nc_oc=AdrZ3SjNjAHHaauSfB_rROOXKgWz3-5RcUZDBqFWIYcpaZk6EpFeyPINgjjzbysFIUGudWrpQSsDQ2SzFUxm_fRx&_nc_zt=23&_nc_ht=scontent.fmnl33-2.fna&_nc_gid=rqQ9mvsZL8vwE3PrjjuovQ&_nc_ss=7b2a8&oh=00_AQMVQCaIGOT72IxmIIR4MPw9hRmRp9DPlN5gg_T5RgP2sA&oe=6AC6C92B", desc: "Elegant two-layer fondant cake. Starting price shown — final price depends on design." },
-{ id: 2, category: "cakes", name: "1 Layer Fondant Cake", price: 3000, image: "https://scontent.fmnl3-2.fna.fbcdn.net/v/t39.30808-6/649078633_1332932032189330_1310331309276842643_n.jpg?stp=dst-jpg_tt6&cstp=mx896x1044&ctp=s896x1044&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=f727a1&_nc_eui2=AeHmLGHjDerYtzgKzmfbTHU0QRQ-ZIAQi0RBFD5kgBCLRK1DtMaSicx9H8ArhvXr7Mx4PZRTL8bYBDlqQ0KOxXG7&_nc_ohc=4f4MJTYbjy4Q7kNvwFQCI8J&_nc_oc=Adqi5oFjBix03sPZI7XDhmw0xTTZfWYg-qdQlLGB8aoHRVUnZ1P_zG6z0TgwARuUmwV2YJWdDrVPIppCiFIZx0BB&_nc_zt=23&_nc_ht=scontent.fmnl3-2.fna&_nc_gid=1nynPqMFunfW7gEmowJt4w&_nc_ss=722a8&oh=00_AQIJpJa_BSj6ENyRMUhTuwxUiLJFxdOxL6e4WksrKWe-FQ&oe=6A988BF1", desc: "Beautiful fondant cake for your special celebration." },
+{ id: 1, category: "cakes", name: "2 Layer Fondant Cake", price: 7000, startingPrice: true, image: "https://scontent.fmnl33-5.fna.fbcdn.net/v/t39.30808-6/825273338_1502153745267157_2223163657993757993_n.jpg?stp=dst-jpg_tt6&cstp=mx895x1179&ctp=s895x1179&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeFnt3syvtkiqxlXAKqbmPgAueegWEyttXK556BYTK21cjf5dFeeeEIYLVMmLrJ59X5R53s-qqsxxOrVwJRLB0vN&_nc_ohc=dgc95901w7YQ7kNvwFtEkaG&_nc_oc=AdpARVaVraFABBSplxjHEBuTQJAz6CHmq7GM4wS8NsjK0gNNPuSH6wwKhxT1Wen34v-_aG77ManQVKZVX84eqlYr&_nc_zt=23&_nc_ht=scontent.fmnl33-5.fna&_nc_gid=SP4VO_vkbcQwQ32ci49tow&_nc_ss=7b2a8&oh=00_AQNXkyXNj7yFelg3VLDnQDDm3QlC2fMcLjVHR9euYadQqg&oe=6AD77593", desc: "Elegant two-layer fondant cake. Starting price shown — final price depends on design." },
+{ id: 2, category: "cakes", name: "1 Layer Fondant Cake", price: 3000, image: "https://scontent.fmnl33-6.fna.fbcdn.net/v/t39.30808-6/672677359_1362621332553733_4966160736559366882_n.jpg?stp=dst-jpg_tt6&cstp=mx896x1044&ctp=s896x1044&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeFLxPimYT_tPNtTqlTZJLOL-sKt2fXS9cT6wq3Z9dL1xJ_WTL_u1__QUXtQiC13egA6Faw6UXJXWEMwWZivOAbq&_nc_ohc=mH9H85X5kYgQ7kNvwH_m_0G&_nc_oc=Adp39DcdFSAZMh1VqQTpvHZS7956bHnAs_AjKxJuQUt2e_zLhK35l4DSkwZaRnCpt7x0NkZVjneXceHAKZs9Cl9T&_nc_zt=23&_nc_ht=scontent.fmnl33-6.fna&_nc_gid=3QrfBiCI_VJZrndYOoYDAQ&_nc_ss=7b2a8&oh=00_AQMKg10nlAUecvdHgNauhjpzHyPePJuaw74sScnumrVEBQ&oe=6AD7751A", desc: "Beautiful fondant cake for your special celebration." },
 { id: 3, category: "cakes", name: "1 Layer Icing Cake", price: 2500, image: "https://scontent.fmnl33-5.fna.fbcdn.net/v/t39.30808-6/777237669_1467900748692457_1418936026575939024_n.jpg?stp=dst-jpg_tt6&cstp=mx1536x2048&ctp=s1536x2048&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHrQoPq-q_wd-HEtL7HVsgHRk7bAyqCwQZGTtsDKoLBBmSCvD1pjtPP9Rz_di1QfuRfG05IlpLJCYy2f3oB2M_k&_nc_ohc=LZ_7UQIVAokQ7kNvwFgFtRY&_nc_oc=Adp88czB38HYQ8XUqdClfdxWmkA9yxzM6jUhWLCe6_11k2lqvPpRKEV06ZDgGBEQBnkqyy-bfkc4lXNnEVX4EeiF&_nc_zt=23&_nc_ht=scontent.fmnl33-5.fna&_nc_gid=trPU5W5eaaJQ_U_Uksc2_w&_nc_ss=7b2a8&oh=00_AQPmLsfo_TouLuCtSut49Q3Be8Jy5shGtbPJgGLFjI4UnA&oe=6AC6E240", desc: "Classic one-layer cake with smooth icing." },
 { id: 4, category: "cakes", name: "2 Layer Icing Cake", price: 5000, image: "https://scontent.fmnl33-4.fna.fbcdn.net/v/t39.30808-6/825353083_1502150781934120_3992755747314382552_n.jpg?stp=dst-jpg_tt6&cstp=mx818x1072&ctp=s818x1072&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeGqMRSbWfzF66ydRAtTe8Ivo6Uy7q7zEZGjpTLurvMRkUH5JvZfJlJg0Pb2R9gccjfA7To1K6eGf0wkrZ9U915C&_nc_ohc=Ncr081eDY-cQ7kNvwH5qJDp&_nc_oc=AdrBDbW87TActc5jnLps_NcP9O0VJzZlBeaqPwIXUE2dHVwqudGIUxmogaVqzxOPeZi-vUy0MTdfPGwl0CJxHKBT&_nc_zt=23&_nc_ht=scontent.fmnl33-4.fna&_nc_gid=h90qNBi5ioTGJQ_t9EJR0g&_nc_ss=7b2a8&oh=00_AQPodZ_rRnYxkoACeaXNYHTjoddrjjGbeST5ZuBhik0mmg&oe=6AC6DBB5", desc: "Classic two-layer celebration cake with icing." },
 { id: 5, category: "cakes", name: "Dream Cake", price: 150, image: "https://scontent.fmnl33-5.fna.fbcdn.net/v/t39.30808-6/486611001_1057115343104335_3890362557494156836_n.jpg?stp=dst-jpg_tt6&cstp=mx960x720&ctp=s960x720&_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEYu0qQ_6yQ0y6MseogMAHcxpEGMiFnZubGkQYyIWdm5v-oh3cARJLjwzTtbHhPf9yVdJ1uwDLGM7TXKTLE4oJw&_nc_ohc=Nwnzf8t5PDQQ7kNvwEPjWxI&_nc_oc=AdpH1xcS49aK1esxkHbDKsRP90sLGVdpjmsou-V6VGRl_Sbqkj9TkhGR46MVLgP3S7fE1g0wFFlvqjI2NTl7RNhQ&_nc_zt=23&_nc_ht=scontent.fmnl33-5.fna&_nc_gid=DeyOOPrWIfhsNdp7A-uf6A&_nc_ss=7b2a8&oh=00_AQP6mux5aOHdEFkCia4aJ3wom73LuCljuxef3N-pZZz93Q&oe=6AC6CE84", desc: "A rich and indulgent dream cake for dessert lovers." },
 
 // BREADS
-{ id: 6, category: "breads", name: "Spanish Bread", price: 10, image: "images/spanish-bread.jpg", desc: "Soft, sweet and buttery Filipino-style bread." },
+{ id: 6, category: "breads", name: "Spanish Bread", price: 10, image: "https://i.pinimg.com/1200x/fd/e3/1b/fde31b1fb895c4112697e60abd3fef87.jpg", desc: "Soft, sweet and buttery Filipino-style bread." },
 { id: 7, category: "breads", name: "Donut (Any Flavor)", price: 350, image: "https://scontent.fmnl33-3.fna.fbcdn.net/v/t39.30808-6/472840860_1108575347479123_5886450804268338760_n.jpg?stp=dst-jpg_tt6&cstp=mx1536x2048&ctp=s1536x2048&_nc_cat=107&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEuIQytmMHMZWYA9DLdjPFiQbwMjYAV7S1BvAyNgBXtLUwMCRxQ45vEIuCotxxQpnv5l7b61yyO_qL2RFAaVRJT&_nc_ohc=QK4TZNJxqyQQ7kNvwE0cLn7&_nc_oc=AdoACDxKP1-E9LpdKmFTsIwUsJFe5--zwG6ze4L2lUtxKHB3ZtKO7DtTSCuXtBnHNNIzNvK2e5bDFtbu_DEhiCAz&_nc_zt=23&_nc_ht=scontent.fmnl33-3.fna&_nc_gid=Fuulu6YXWbv-lX4b7pz0CQ&_nc_ss=7b2a8&oh=00_AQNkE_Evky3h6v8zum3_ZTAmRNNaEI2Cd2PRnWiO9HWnLw&oe=6AC6DB73", desc: "Choose your favorite donut flavor." },
-{ id: 8, category: "breads", name: "Hotdog Bread", price: 20, image: "images/hotdog-bread.jpg", desc: "Soft bread filled with a savory hotdog." },
+{ id: 8, category: "breads", name: "Hotdog Bread", price: 20, image: "https://i.pinimg.com/736x/3d/a4/e8/3da4e85cbf8f9eb96411bacc7656f41f.jpg", desc: "Soft bread filled with a savory hotdog." },
 { id: 9, category: "breads", name: "Ham & Cheese Bread", price: 20, image: "https://scontent.fmnl33-4.fna.fbcdn.net/v/t39.30808-6/508185106_1120834860065716_3932760072622991222_n.jpg?stp=dst-jpg_tt6&cstp=mx960x720&ctp=s960x720&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=f727a1&_nc_eui2=AeELIylJmWxqepEeJENSu-4CjYgTtSSD9MGNiBO1JIP0wTREu2DharnQdzO0OFjEKLNWQ4nr4ya8HCvQ7WSeocXY&_nc_ohc=eWa47a7zExgQ7kNvwHFHggW&_nc_oc=AdqU2T0-uzOMSZ2AKlubR6XKWRYXPfxrYq_UhbW2c1Ra3dwrqKgsZVlpRAEfzGHOwg3-CnV9bUUS4tW7IP37yrz0&_nc_zt=23&_nc_ht=scontent.fmnl33-4.fna&_nc_gid=ACit3WnM6mfNeDYjb6RV4w&_nc_ss=7b2a8&oh=00_AQMhQX8v32wxLYEiAmEVr7qoirChZkr-mL8cEgrke7BZSg&oe=6AC6CC8F", desc: "Soft bread with delicious ham and cheese." },
 
 // DESSERT BOXES
@@ -268,7 +268,6 @@ document.getElementById("photoPreviewWrap").style.display = "none";
 async function tryCopyPhotoToClipboard() {
 if (!selectedPhoto || !navigator.clipboard || !window.ClipboardItem) return false;
 try {
-// Clipboard image write needs a supported type — convert to PNG via canvas if needed.
 const bitmap = await createImageBitmap(selectedPhoto);
 const canvas = document.createElement("canvas");
 canvas.width = bitmap.width;
@@ -363,7 +362,6 @@ const messengerUrl = `https://m.me/${MESSENGER_USERNAME}?text=${message}`;
 const messengerWindow = window.open(messengerUrl, "_blank");
 
 if (!messengerWindow) {
-// Popup was blocked anyway — fall back to navigating this tab there.
 window.location.href = messengerUrl;
 }
 
@@ -398,7 +396,6 @@ document.getElementById("loginModalClose").addEventListener("click", closeLogin)
 document.getElementById("loginForm").addEventListener("submit", handleLoginSubmit);
 document.getElementById("themeToggle").addEventListener("click", toggleTheme);
 
-// Click outside either modal's card to close it
 document.querySelectorAll(".modal-overlay").forEach(overlay => {
 overlay.addEventListener("click", (e) => {
 if (e.target === overlay) overlay.classList.remove("active");
